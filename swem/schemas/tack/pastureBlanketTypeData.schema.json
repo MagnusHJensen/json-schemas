@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/magnushjensen/json-schemas/refs/heads/main/swem/schemas/tack/pastureBlanketTypeData.schema.json",
+  "$id": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/tack/pastureBlanketTypeData.schema.json",
   "title": "SWEM Pasture Blanket Type Data",
   "description": "Schema for pasture blanket-specific tack type data",
   "type": "object",

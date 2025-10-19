@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/magnushjensen/json-schemas/refs/heads/main/swem/schemas/tack/blanket.schema.json",
+  "$id": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/tack/blanket.schema.json",
   "title": "SWEM Blanket",
   "description": "Schema for SWEM blanket (saddle pad) tack items",
   "allOf": [
