@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/girthStrapTypeData.schema.json",
+  "title": "SWEM Girth Strap Type Data",
+  "description": "Schema for girth strap-specific tack type data",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/tackTypeData.schema.json"
+    }
+  ],
+  "properties": {
+    "belt_color": {
+      "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/definitions.schema.json#/$defs/color",
+      "description": "Color of the belt component (separate from main fluff color)",
+      "default": [
+        139,
+        69,
+        19
+      ]
+    }
+  }
+}

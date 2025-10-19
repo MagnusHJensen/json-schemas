@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/magnushjensen/json-schemas/swem/schemas/definitions.schema.json",
+  "title": "SWEM Common Definitions",
+  "description": "Common definitions and reusable components for SWEM JSON schemas",
+  "type": "object",
+  "$defs": {
+    "color": {
+      "type": "array",
+      "description": "RGB color values",
+      "items": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "minItems": 3,
+      "maxItems": 3,
+      "examples": [
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          139,
+          69,
+          19
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "coinType": {
+      "type": "string",
+      "description": "Type of coin currency",
+      "enum": [
+        "copper",
+        "iron",
+        "emerald",
+        "gold",
+        "diamond",
+        "netherite",
+        "amethyst"
+      ]
+    },
+    "tackType": {
+      "type": "string",
+      "description": "Type of tack equipment",
+      "enum": [
+        "halter",
+        "bridle",
+        "blanket",
+        "saddle",
+        "girth_strap",
+        "breast_collar",
+        "leg_wraps",
+        "pasture_blanket",
+        "saddle_bag",
+        "horse_armor"
+      ]
+    },
+    "rackType": {
+      "type": "string",
+      "description": "Type of storage rack",
+      "enum": [
+        "saddle",
+        "blanket_5",
+        "bridle",
+        "halter_lead",
+        "lead",
+        "pasture_blanket_long_5",
+        "pasture_blanket_short_3",
+        "horse_armor"
+      ]
+    },
+    "horseArmorTier": {
+      "type": "string",
+      "description": "Horse armor protection tier",
+      "enum": [
+        "cloth",
+        "leather",
+        "copper",
+        "iron",
+        "gold",
+        "diamond",
+        "netherite",
+        "amethyst"
+      ]
+    },
+    "bridleModelType": {
+      "type": "string",
+      "description": "Bridle model type",
+      "enum": [
+        "western",
+        "english"
+      ]
+    },
+    "saddleModelType": {
+      "type": "string",
+      "description": "Saddle model type",
+      "enum": [
+        "western",
+        "english",
+        "adventure"
+      ]
+    },
+    "texturePath": {
+      "type": "string",
+      "description": "Path to a texture file",
+      "pattern": "^[a-zA-Z0-9_/.-]+\\.(png|jpg|jpeg)$"
+    },
+    "internalName": {
+      "type": "string",
+      "description": "Internal name identifier",
+      "pattern": "^[a-z0-9_]+$"
+    }
+  }
+}

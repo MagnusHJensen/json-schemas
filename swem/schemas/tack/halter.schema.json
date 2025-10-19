@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/halter.schema.json",
+  "title": "SWEM Halter",
+  "description": "Schema for SWEM halter tack items",
+  "allOf": [
+    {
+      "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/tack.schema.json"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "properties": {
+            "type": {
+              "const": "halter"
+            },
+            "data": {
+              "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/tackTypeData.schema.json"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

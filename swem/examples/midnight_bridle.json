@@ -1,0 +1,37 @@
+{
+  "$schema": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/bridle.schema.json",
+  "display": {
+    "name": "Midnight Bridle",
+    "credits": "Arishant",
+    "inspiration": "Inspired by midnight desert rides"
+  },
+  "cost": {
+    "coin": "iron",
+    "amount": 2
+  },
+  "meta": {
+    "name": "midnight_bridle",
+    "icon": "bridle/midnight_bridle_icon.png",
+    "type": "bridle",
+    "data": {
+      "can_wear_armor": false,
+      "ignores": [],
+      "color": [
+        139,
+        69,
+        19
+      ],
+      "model_type": "western"
+    },
+    "textures": {
+      "horse": {
+        "legacy": {
+          "bridle": "bridle/midnight_bridle_legacy.png"
+        }
+      },
+      "rack": {
+        "bridle": "bridle/rack_bridle_midnight_bridle.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/pastureBlanketTypeData.schema.json",
+  "title": "SWEM Pasture Blanket Type Data",
+  "description": "Schema for pasture blanket-specific tack type data",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/tackTypeData.schema.json"
+    }
+  ],
+  "properties": {
+    "is_armored": {
+      "type": "boolean",
+      "description": "Whether the pasture blanket provides armor protection (diamond level)",
+      "default": false
+    }
+  }
+}
