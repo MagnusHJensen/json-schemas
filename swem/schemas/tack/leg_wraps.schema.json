@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/leg_wraps.schema.json",
+  "$id": "https://raw.githubusercontent.com/magnushjensen/json-schemas/refs/heads/main/swem/schemas/tack/leg_wraps.schema.json",
   "title": "SWEM Leg Wraps",
   "description": "Schema for SWEM leg wraps tack items",
   "allOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/saddle_bag.schema.json",
+  "$id": "https://raw.githubusercontent.com/magnushjensen/json-schemas/refs/heads/main/swem/schemas/tack/saddle_bag.schema.json",
   "title": "SWEM Saddle Bag",
   "description": "Schema for SWEM saddle bag tack items",
   "allOf": [
