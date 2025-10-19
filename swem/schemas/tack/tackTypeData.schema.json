@@ -14,13 +14,13 @@
       "type": "array",
       "description": "Tack types that this tack ignores for dependency checking",
       "items": {
-        "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/definitions.schema.json#/$defs/tackType"
+        "$ref": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/definitions.schema.json#/$defs/tackType"
       },
       "uniqueItems": true,
       "default": []
     },
     "color": {
-      "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/definitions.schema.json#/$defs/color",
+      "$ref": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/definitions.schema.json#/$defs/color",
       "description": "Color to apply to the tack model",
       "default": [
         255,

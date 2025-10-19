@@ -5,7 +5,7 @@
   "description": "Schema for SWEM horse armor tack items",
   "allOf": [
     {
-      "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/tack.schema.json"
+      "$ref": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/tack/tack.schema.json"
     },
     {
       "type": "object",
@@ -16,7 +16,7 @@
               "const": "horse_armor"
             },
             "data": {
-              "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/horseArmorTypeData.schema.json"
+              "$ref": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/tack/horseArmorTypeData.schema.json"
             }
           }
         }

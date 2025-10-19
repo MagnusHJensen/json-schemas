@@ -1,5 +1,5 @@
 {
-  "$schema": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/horse_armor.schema.json",
+  "$schema": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/tack/horse_armor.schema.json",
   "display": {
     "name": "Royal Guard Armor",
     "credits": "ArmorSmith",

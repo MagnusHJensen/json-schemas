@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/magnushjensen/json-schemas/swem/schemas/definitions.schema.json",
+  "$id": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/definitions.schema.json",
   "title": "SWEM Common Definitions",
   "description": "Common definitions and reusable components for SWEM JSON schemas",
   "type": "object",

@@ -5,7 +5,7 @@
   "description": "Schema for SWEM bridle tack items",
   "allOf": [
     {
-      "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/tack.schema.json"
+      "$ref": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/tack/tack.schema.json"
     },
     {
       "type": "object",
@@ -16,7 +16,7 @@
               "const": "bridle"
             },
             "data": {
-              "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/bridleTypeData.schema.json"
+              "$ref": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/tack/bridleTypeData.schema.json"
             }
           }
         }

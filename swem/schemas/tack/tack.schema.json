@@ -42,7 +42,7 @@
       ],
       "properties": {
         "coin": {
-          "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/definitions.schema.json#/$defs/coinType"
+          "$ref": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/definitions.schema.json#/$defs/coinType"
         },
         "amount": {
           "type": "integer",
@@ -64,13 +64,13 @@
       ],
       "properties": {
         "name": {
-          "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/definitions.schema.json#/$defs/internalName"
+          "$ref": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/definitions.schema.json#/$defs/internalName"
         },
         "icon": {
-          "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/definitions.schema.json#/$defs/texturePath"
+          "$ref": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/definitions.schema.json#/$defs/texturePath"
         },
         "type": {
-          "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/definitions.schema.json#/$defs/tackType"
+          "$ref": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/definitions.schema.json#/$defs/tackType"
         },
         "data": {
           "type": "object",
@@ -95,7 +95,7 @@
                   "description": "Legacy model bone textures",
                   "patternProperties": {
                     "^(bridle|wings|armor|saddle_bag|halter|blanket|girth_strap|leg_wraps|breast_collar|saddle|pasture_blanket)$": {
-                      "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/definitions.schema.json#/$defs/texturePath"
+                      "$ref": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/definitions.schema.json#/$defs/texturePath"
                     }
                   },
                   "additionalProperties": false
@@ -108,7 +108,7 @@
               "description": "Rack storage textures",
               "patternProperties": {
                 "^(saddle|blanket_5|bridle|halter_lead|lead|pasture_blanket_long_5|pasture_blanket_short_3|horse_armor)$": {
-                  "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/definitions.schema.json#/$defs/texturePath"
+                  "$ref": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/definitions.schema.json#/$defs/texturePath"
                 }
               },
               "additionalProperties": false

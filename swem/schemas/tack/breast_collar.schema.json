@@ -5,7 +5,7 @@
   "description": "Schema for SWEM breast collar tack items",
   "allOf": [
     {
-      "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/tack.schema.json"
+      "$ref": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/tack/tack.schema.json"
     },
     {
       "type": "object",
@@ -16,7 +16,7 @@
               "const": "breast_collar"
             },
             "data": {
-              "$ref": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/tackTypeData.schema.json"
+              "$ref": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/tack/tackTypeData.schema.json"
             }
           }
         }

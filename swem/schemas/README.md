@@ -39,7 +39,7 @@ To validate a tack JSON file, reference the appropriate schema file based on the
 
 ```json
 {
-  "$schema": "https://github.com/magnushjensen/json-schemas/swem/schemas/tack/bridle.schema.json",
+  "$schema": "https://raw.githubusercontent.com/MagnusHJensen/json-schemas/refs/heads/main/swem/schemas/tack/bridle.schema.json",
   "display": {
     "name": "Midnight Bridle",
     "credits": "ArtistName"
